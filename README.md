@@ -10,4 +10,5 @@ gatk Mutect2 \
   --tumor-sample $TUMOR_SAMPLE_NAME \
   --output $VCF_OUTPUT_FILE
 
-  As variant calling was performed on given samples same was used in script which is added as vcf.sh 
+  As variant calling was performed on given samples same was used in script which is added as vcf.sh
+  Output VCF file is also attached for reference.
