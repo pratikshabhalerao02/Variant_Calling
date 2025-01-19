@@ -1,0 +1,1 @@
+/jdk1.8.0_231/bin/java -jar /gatk-4.1.0.0/gatk-package-4.1.0.0-local.jar Mutect2 --sequence-dictionary hg38.dict --reference hg38.fa --input PA221MH-lib09-P19-Norm_S1_L001.withtags.bam --normal-sample PA221MH-lib09-P19-Norm_S1_L001 --input PA220KH-lib09-P19-Tumor_S2_L001.withtags.bam --tumor-sample PA220KH-lib09-P19-Tumor_S2_L001 --output Variant.vcf
