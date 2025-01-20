@@ -19,5 +19,5 @@ gatk Mutect2 \
 
   $ /ensembl-vep_updated/ensembl-vep/vep -i variant.vcf -o annotated.vcf --gtf gencode.v42.annotation.gtf.gz --fasta hg38.fa.gz --symbol Genesymbol
 
-  Annotated file is attattched as "annotated.txt"
+  Annotated file is attached as "annotated.txt"
 
