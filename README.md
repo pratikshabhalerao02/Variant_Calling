@@ -12,3 +12,10 @@ gatk Mutect2 \
 
   As variant calling was performed on given samples same samples were used in the script which is added as "vcf.sh" .
   Output VCF file is also attached for reference.
+
+  Variant Annotation Using VEP 
+
+  Command used : 
+
+  $ /ensembl-vep_updated/ensembl-vep/vep -i variant.vcf -o annotated.vcf --gtf gencode.v42.annotation.gtf.gz --fasta hg38.fa.gz --symbol Genesymbol
+
